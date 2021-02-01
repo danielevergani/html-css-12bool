@@ -5,10 +5,12 @@ body{
 [class*="col-"]{
   background-color: rgba(224, 130, 131, 0.4);
   border: 1px solid black;
-  height: 200px;
+  height: 100%;
 }
 
-
+.container{
+  height: 200px;
+}
 
 .border-white{
   border: 1px solid white;
@@ -18,7 +20,10 @@ body{
   border: 1px solid black;
 }
 
+.padding {
+  padding: 10px;
+}
 
-.padding{
-  padding: 5px 5px 5px 5px;
+.container.border-black{
+  border: none;
 }
