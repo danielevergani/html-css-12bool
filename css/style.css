@@ -2,29 +2,24 @@ body{
   margin: 50px 0;
 }
 
+.container{
+  height: 200px;
+}
+
 [class*="col-"]{
   background-color: rgba(224, 130, 131, 0.4);
   border: 1px solid black;
   height: 100%;
 }
 
-.container{
-  height: 200px;
-}
-
 .border-white{
   border: 1px solid white;
 }
 
-.border-black{
-  border: 1px solid black;
+.container .padding{
+  height: 100%;
 }
 
 .padding {
   padding: 10px;
-}
-
-.container.border-black{
-  border: none;
-  height: 100%;
 }
